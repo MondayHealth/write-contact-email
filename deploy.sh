@@ -14,7 +14,7 @@ popd
 echo "Pushing lambda function"
 
 aws lambda update-function-code \
-    --function-name writeToSpreadSheet \
+    --function-name writeContactEmail \
     --zip-file fileb://package.zip
 
 echo "Done"
